@@ -1,6 +1,7 @@
 # I.P-GeoWeather
 Node application used to  pinpoint client I.P. address and extract host machine's geolocation and weather using ipapi and Weather API. 
 
+![alt text](https://github.com/navinthenapster/I.P-GeoWeather/blob/master/image.png)
 
 # Prerequisties
 1. node.
