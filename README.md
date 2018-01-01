@@ -7,15 +7,28 @@ Access to ipapi and api.weather.org in your network
 
 # How to use:
  Express Framework : TO execute the file , run this command in your terminal or command prompt.
-      npm run start 
+     
+     npm run start 
+      
       (or)
+      
       node server.js
       
      The Webpage will be hosted in http://localhost:3000/ .
  
-  http framework : This file deals with the Weather API integration in http WebFramework.It build for testing purpose alone.So run this command to create a http server running in 8081 port
-  node http_main
- It will be hosted at http://localhost:8081
+  http framework : This file deals with the Weather API integration in http WebFramework.It build for testing purpose alone.So run this command to create a http server running in 8081 port.
+
+      
+      
+      
+       node http_main
+      
+     The Webpage will be hosted in http://localhost:8081/ .
+  
+ 
+  
+
+ 
  
 # Libraries Used:
 public-ip : is used for finding the public ip of the client.
