@@ -4,7 +4,11 @@ Node application used to  pinpoint client I.P. address and extract host machine'
 
 # Prerequisties
 1. node.
-2. No Proxy : Access to ipapi and api.weather.org in your network.
+2. Install the npm packages before executing the code.
+```
+npm install
+```
+3. No Proxy : Access to ipapi and api.weather.org in your network.
   > With proxy : insert this code before every API request calls. 
   
 ```
@@ -16,18 +20,18 @@ var password='*';
    proxy: 'http://'+username+':'+password+'@proxy.company.com:8080'
  };
 ```
-
 > Not sure if public-ip package can operate on proxy.
 
+
 # How to use:
- * Express Framework : TO execute the file , run this command in your terminal or command prompt.
+ * Express Framework : Install the npm packages and execute the file by running this command in your terminal or command prompt.
  
  ``` 
+ npm install 
+ 
  npm run start  
-     
-      (or)
-      
-   node server.js
+      (or)    
+ node server.js
    ```
       
  > The Webpage will be hosted in http://localhost:3000/ .
