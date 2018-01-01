@@ -37,7 +37,7 @@ var password='*';
       
  > The Webpage will be hosted in http://localhost:3000/ .
  
-  * http framework : This file deals with the Weather API integration in http WebFramework.It build for testing purpose alone.So run this command to create a http server running in 8081 port.     
+  * http framework : This file deals with the Weather API integration in http WebFramework. It built for testing purpose alone. So run this command to create a http server running in 8081 port.     
           
   ```
   node http_main
@@ -58,7 +58,7 @@ var password='*';
 
 # API calls:
 * http://ipapi.co/json - to find the geolocation of the ip
-* http://api.openweathermap.org/data/2.5/weather - to find the weather of that location
+* http://api.openweathermap.org/ - to find the weather of that location
 
 **Disclaimer**
    The API KEY will be expired on 4 Jan 2018. Kindly Subscribe to api.openweather to reuse it. The code is done for evalulation purpose, If any problem kindly wait for updates and you can contact me @ navininfantraj@yahoo.co.in
