@@ -1,5 +1,6 @@
 # I.P-GeoWeather
-It will pinpoint your I.P. location  and use the data to extract systems geolocation and weather using ipapi and Weather API. 
+Node application used to  pinpoint client I.P. address and extract host machine's geolocation and weather using ipapi and Weather API. 
+
 
 # Prerequisties
 1. node.
@@ -31,10 +32,10 @@ It will pinpoint your I.P. location  and use the data to extract systems geoloca
  
  
 # Libraries Used:
-public-ip : is used for finding the public ip of the client.
-request
-http
-express
+* public-ip (is used for finding the public ip of the client.)
+* request
+* http
+* express
 
 # API calls:
 * http://ipapi.co/json - to find the geolocation of the ip
