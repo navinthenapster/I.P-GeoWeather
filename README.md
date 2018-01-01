@@ -5,7 +5,7 @@ Node application used to  pinpoint client I.P. address and extract host machine'
 # Prerequisties
 1. node.
 2. No Proxy : Access to ipapi and api.weather.org in your network.
-  > With proxy : insert this code before API request calls. 
+  > With proxy : insert this code before every API request calls. 
   
 ```
 //WITH PROXY
