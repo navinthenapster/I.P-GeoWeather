@@ -37,6 +37,6 @@ http
 express
 
 # API calls:
-http://ipapi.co/json - to find the geolocation of the ip
-http://api.openweathermap.org/data/2.5/weather - to find the weather of that location
+* http://ipapi.co/json - to find the geolocation of the ip
+* http://api.openweathermap.org/data/2.5/weather - to find the weather of that location
 
