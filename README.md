@@ -8,12 +8,12 @@ Node application used to  pinpoint client I.P. address and extract host machine'
 
 # How to use:
  * Express Framework : TO execute the file , run this command in your terminal or command prompt.
+ 
+ >     npm run start  
      
-     npm run start 
-      
       (or)
       
-      node server.js
+  >    node server.js
       
      The Webpage will be hosted in http://localhost:3000/ .
  
@@ -22,7 +22,7 @@ Node application used to  pinpoint client I.P. address and extract host machine'
       
       
       
-       node http_main
+   >   node http_main
       
      The Webpage will be hosted in http://localhost:8081/ .
   
