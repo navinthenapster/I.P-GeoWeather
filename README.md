@@ -6,6 +6,7 @@ Node application used to  pinpoint client I.P. address and extract host machine'
 1. node.
 2. No Proxy : Access to ipapi and api.weather.org in your network.
   > With proxy : insert this code before API request calls. 
+  
 '''
 //WITH PROXY
 var username='user';
@@ -15,6 +16,7 @@ var password='*';
    proxy: 'http://'+username+':'+password+'@proxy.company.com:8080'
  };
 '''
+
 > Not sure if public-ip package can operate on proxy.
 
 # How to use:
