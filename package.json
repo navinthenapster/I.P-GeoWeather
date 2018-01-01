@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Creating an Front end Ui with API Integration for internal project - evalulation process ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "navin thenapster",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "public-ip": "^2.4.0",
+    "request": "^2.83.0",
+    "node-where": "^1.1.0",
+    "countries-cities": "^0.0.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navinthenapster/I.P-GeoWeather.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/navinthenapster/I.P-GeoWeather/issues"
+  },
+  "homepage": "https://github.com/navinthenapster/I.P-GeoWeather#readme"
+}
