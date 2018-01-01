@@ -21,7 +21,7 @@ var password='*';
    proxy: 'http://'+username+':'+password+'@proxy.company.com:8080'
  };
 ```
-> Not sure if public-ip package can operate on proxy.
+> Not sure if public-ip package can operate on proxy, will inform you in further update.
 
 
 # How to use:
