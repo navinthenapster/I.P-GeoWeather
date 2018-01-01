@@ -2,11 +2,11 @@
 It will pinpoint your I.P. location  and use the data to extract systems geolocation and weather using ipapi and Weather API. 
 
 # Prerequisties
-node
-Access to ipapi and api.weather.org in your network
+1. node.
+2. Access to ipapi and api.weather.org in your network.
 
 # How to use:
- Express Framework : TO execute the file , run this command in your terminal or command prompt.
+ * Express Framework : TO execute the file , run this command in your terminal or command prompt.
      
      npm run start 
       
@@ -16,7 +16,7 @@ Access to ipapi and api.weather.org in your network
       
      The Webpage will be hosted in http://localhost:3000/ .
  
-  http framework : This file deals with the Weather API integration in http WebFramework.It build for testing purpose alone.So run this command to create a http server running in 8081 port.
+  * http framework : This file deals with the Weather API integration in http WebFramework.It build for testing purpose alone.So run this command to create a http server running in 8081 port.
 
       
       
