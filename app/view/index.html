@@ -1,0 +1,34 @@
+<html ng-app="angular">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body ng-controller="angular_controller" ng-cloak>
+
+  <div ng-show="loaded"><h1> Please Wait Data is Loading..</h1></div>
+<div ng-show="!loaded">
+  Your I. P. Address : {{ip}}
+
+<br> <h1>Weather Details</h1>
+  <h4>Temperature :{{(data.main['temp']-273)}} &deg; C </h4>
+  <h4> Weather : {{data.weather[0].main}} (<small>  {{data.weather[0].description}}</small>)</h4>
+<hr>
+
+  <table>
+    <tr ng-repeat="key in ip_data_keys"><td>{{key}} </td>
+      <td>{{ip_data[key]}}</td></tr>
+  </table>
+
+
+</div>
+
+
+</body>
+
+
+
+
+
+</script>
+</html>
